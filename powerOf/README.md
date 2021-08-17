@@ -1,0 +1,1 @@
+Write a program that calculates and shows the value of 2^10 (2 to the 10th power). 
