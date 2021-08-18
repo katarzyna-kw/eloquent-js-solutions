@@ -24,11 +24,13 @@ console.log(reverseArrayU(['a', 'b', 'c', 'd']))
 
 //modify the given array using clue
 const reverseArrayInPlace = (arr) => {
-    //loop through 1st half of arr
+    //loop through 1st half of arr to be able to make swaps
     for (i=0; i<(Math.floor(arr.length/2)); i++) {
-        //bind oldEl to arr[i]
+        //local to bind hold on to element
         let oldEl = arr[i]
+        //swap/overwrite current index with its partner on other end of array
         arr[i] = arr[arr.length-1-i]
+        //put the value from local binding where its partner used to be
         arr[arr.length-1-i] = oldEl
     }
     return arr
