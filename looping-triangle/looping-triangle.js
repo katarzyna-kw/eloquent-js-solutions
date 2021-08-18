@@ -1,5 +1,4 @@
-export const triangle = () => {
-    //create for loop
+const triangle = () => {
     for (let hashtag="#"; hashtag.length<=7; hashtag+="#") {
         console.log(hashtag)
     }
@@ -7,8 +6,13 @@ export const triangle = () => {
 
 console.log(triangle())
 
+let number = 0;
+while (number <= 12) {
+  console.log(number);
+  number = number + 2;
+}
 
-var newItem = '';
-for (var number = 0; number < 7; number++){
-    console.log(newItem = newItem + '#');
+for (let hashtag="#"; hashtag<8; hashtag++) {
+    console.log(hashtag)
+    hashtag = hashtag+"#"
 }
