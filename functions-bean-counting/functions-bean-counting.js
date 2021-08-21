@@ -23,3 +23,8 @@ const countChar = (str, item) => {
 }
 
 console.log(countChar("Free Britney", "e"))
+
+
+//export each function as property of object module.exports
+module.exports.countBs = countBs
+module.exports.countChar = countChar
