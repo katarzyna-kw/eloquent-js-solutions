@@ -14,4 +14,6 @@ const chessboard = (num) => {
     return board
 }
 
-console.log(chessboard(5));
+console.log(chessboard('4'));
+
+module.exports = chessboard
